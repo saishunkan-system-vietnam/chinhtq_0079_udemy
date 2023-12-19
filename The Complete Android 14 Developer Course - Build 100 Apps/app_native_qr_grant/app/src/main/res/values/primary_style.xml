@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--style text app-->
+    <style name="StyleBold" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/notosansjp_bold</item>
+        <item name="fontWeight">700</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="StyleMedium" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/notosansjp_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="StyleRegular" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/notosansjp_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="StyleNormal" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/notosansjp_light</item>
+        <item name="fontWeight">500</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!--style other-->
+    <style name="ItemMenuStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/notosansjp_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_trans80">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="grey">#FFA1A1A1</color>
+    <color name="primary">#FF2053A1</color>
+    <color name="red">#FFEB4646</color>
+    <color name="redBorder">#FFF36363</color>
+    <color name="linkColor">#FF2053A1</color>
+    <color name="focusColor">#FF247DEA</color>
+    <color name="border">#FFC8C8C8</color>
+    <color name="background_input">#FFF6F6F6</color>
+    <color name="green">#FF28B15A</color>
+    <color name="orange">#FFEB9346</color>
+</resources>

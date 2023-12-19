@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="androidx.core.content.ContextCompat" />
+
+        <import type="android.view.View" />
+
+        <import type="com.example.app_native_qr_grant.R" />
+
+        <import type="java.util.List" />
+
+        <variable
+            name="isError"
+            type="List&lt;Boolean>" />
+
+        <variable
+            name="isLoading"
+            type="Boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_login_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        tools:context=".LoginAccountActivity">
+
+        <include
+            android:id="@+id/header_appbar_layout"
+            layout="@layout/activity_appbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            app:layout_constraintBottom_toTopOf="@+id/txt_change_scan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_appbar_layout">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/StyleRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="補助金申請\nポータ ルアカウントログイン"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <com.example.app_native_qr_grant.widgets.PrimaryInput
+                android:id="@+id/edt_email"
+                style="@style/StyleRegular"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView"
+                android:layout_marginHorizontal="40dp"
+                android:drawableStart="@drawable/icon_mail"
+                android:hint="メールアドレス"
+                android:textSize="16sp"
+                app:validator="@{isError[0]}"
+                tools:ignore="HardcodedText,LabelFor,RtlSymmetry,TextFields" />
+
+            <TextView
+                android:id="@+id/txt_error_mail"
+                style="@style/StyleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_email"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="3dp"
+                android:text="TextView"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:visibility="@{isError[0] ? View.GONE : View.VISIBLE}"
+                tools:ignore="HardcodedText" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_error_mail"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                app:passwordToggleTint="@color/primary"
+                app:passwordToggleDrawable="@drawable/show_text_password"
+                app:passwordToggleEnabled="true"
+                app:hintEnabled="false"
+                app:cursorColor="@color/focusColor"
+                tools:ignore="HardcodedText">
+                <com.example.app_native_qr_grant.widgets.PrimaryInput
+                    android:id="@+id/edt_pass"
+                    style="@style/StyleRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/icon_pass"
+                    android:textSize="16sp"
+                    android:hint="パスワード"
+                    android:inputType="textPassword"
+                    app:validator="@{isError[1]}"
+                    tools:ignore="HardcodedText,LabelFor,RtlSymmetry" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/txt_error_pass"
+                style="@style/StyleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_layout_pass"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="3dp"
+                android:text="TextView"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:visibility="@{isError[1] ? View.GONE : View.VISIBLE}"
+                tools:ignore="HardcodedText" />
+
+            <com.example.app_native_qr_grant.widgets.custom_button.PrimaryButton
+                android:id="@+id/txt_submit"
+                style="@style/StyleBold"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/txt_error_pass"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:elevation="5dp"
+                android:text="ログイン"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="@{isLoading ? View.GONE : View.VISIBLE}"
+                tools:ignore="HardcodedText" />
+
+            <com.example.app_native_qr_grant.widgets.custom_button.LoadingButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@id/txt_error_pass"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:visibility="@{isLoading ? View.VISIBLE : View.GONE}" />
+        </RelativeLayout>
+
+        <com.example.app_native_qr_grant.widgets.custom_button.SecondButton
+            android:id="@+id/txt_change_scan"
+            style="@style/StyleRegular"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="5dp"
+            android:elevation="5dp"
+            android:text="QRコードログインを\nご利用の場合はこちら"
+            android:textColor="@color/primary"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

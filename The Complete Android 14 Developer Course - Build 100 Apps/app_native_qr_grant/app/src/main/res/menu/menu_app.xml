@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item android:id="@+id/privacy_policy" android:title="プライバシーポリシー"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/license" android:title="ライセンス"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/terms_of_service" android:title="利用規約"
+            tools:ignore="HardcodedText" />
+        <item android:id="@+id/logout" android:title="ログアウト"
+            tools:ignore="HardcodedText" />
+    </group>
+</menu>

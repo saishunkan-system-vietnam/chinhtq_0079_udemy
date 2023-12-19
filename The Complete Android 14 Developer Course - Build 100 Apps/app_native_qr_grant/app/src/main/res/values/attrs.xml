@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PrimaryButton">
+        <attr name="primaryRadius" format="float" />
+        <attr name="primary" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SecondButton">
+    </declare-styleable>
+</resources>
