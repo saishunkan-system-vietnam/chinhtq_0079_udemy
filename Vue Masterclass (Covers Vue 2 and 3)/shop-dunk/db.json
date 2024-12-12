@@ -1,0 +1,239 @@
+{
+  "product": [
+    {
+      "ctg": "iPhone",
+      "data": [
+        {
+          "id": 0,
+          "icon": {
+            "name": "installment",
+            "image": "https://shopdunk.com/images/uploaded/icon/0-phantram.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0029155_iphone-16-pro-max-256gb_240.png",
+          "name": "iPhone 16 Pro Max 256GB",
+          "currentPrice": 34290000,
+          "originalPrice": 34990000,
+          "sale": "-2%"
+        },
+        {
+          "id": 1,
+          "icon": {
+            "name": "installment",
+            "image": "https://shopdunk.com/images/uploaded/icon/0-phantram.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0030771_iphone-16-128gb_240.png",
+          "name": "iPhone 16 128GB",
+          "currentPrice": 22190000,
+          "originalPrice": 22990000,
+          "sale": "-3%"
+        },
+        {
+          "id": 2,
+          "icon": {
+            "name": "installment",
+            "image": "https://shopdunk.com/images/uploaded/icon/0-phantram.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0030772_iphone-16-plus-128gb_240.png",
+          "name": "iPhone 16 Plus 128GB",
+          "currentPrice": 25490000,
+          "originalPrice": 25990000,
+          "sale": "-1%"
+        },
+        {
+          "id": 3,
+          "icon": {
+            "name": "installment",
+            "image": "https://shopdunk.com/images/uploaded/icon/0-phantram.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0030444_iphone-16-pro-128gb_240.png",
+          "name": "iPhone 16 Pro 128GB",
+          "currentPrice": 28790000,
+          "originalPrice": 28990000,
+          "sale": "0%"
+        }
+      ]
+    },
+    {
+      "ctg": "iPad",
+      "data": [
+        {
+          "id": 0,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+          "name": "iPad gen 9 10.2 inch WiFi 64GB",
+          "currentPrice": 7090000,
+          "originalPrice": 9990000,
+          "sale": "-29%"
+        },
+        {
+          "id": 1,
+          "icon": {
+            "name": "installment",
+            "image": "https://shopdunk.com/images/uploaded/icon/0-phantram.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+          "name": "iPad Gen 10 th 10.9 inch WiFi 64GB",
+          "currentPrice": 8990000,
+          "originalPrice": 12990000,
+          "sale": "-30%"
+        },
+        {
+          "id": 2,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+          "name": "iPad Pro M4 11 inch Wi-Fi",
+          "currentPrice": 27690000,
+          "originalPrice": 28990000,
+          "sale": "-4%"
+        },
+        {
+          "id": 3,
+          "icon": {
+            "name": "new",
+            "image": "https://shopdunk.com/images/uploaded/icon/new.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+          "name": "iPad Air 6 M2 13 inch Wi-Fi",
+          "currentPrice": 20990000,
+          "originalPrice": 21990000,
+          "sale": "-4%"
+        }
+      ]
+    },
+    {
+      "ctg": "Mac",
+      "data": [
+        {
+          "id": 0,
+          "icon": {
+            "name": "reduce",
+            "image": "https://shopdunk.com/images/uploaded/icon/giam-500.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.png",
+          "name": "MacBook Air M1 2020 (8GB RAM | 256GB SSD)",
+          "currentPrice": 17990000,
+          "originalPrice": 28990000,
+          "sale": "-37%"
+        },
+        {
+          "id": 1,
+          "icon": {
+            "name": "reduce",
+            "image": "https://shopdunk.com/images/uploaded/icon/giam-3tr.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+          "name": "iMac M1 2021 24 inch (8 Core GPU/8GB/512GB)",
+          "currentPrice": 32990000,
+          "originalPrice": 25990000,
+          "sale": "-28%"
+        },
+        {
+          "id": 2,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+          "name": "MacBook Air M2 13 inch (8GB RAM | 256GB SSD)",
+          "currentPrice": 23290000,
+          "originalPrice": 32990000,
+          "sale": "-29%"
+        },
+        {
+          "id": 3,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0024432_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg",
+          "name": "MacBook Air M3 13 inch (8GB RAM | 256GB SSD)",
+          "currentPrice": 26490000,
+          "originalPrice": 27990000,
+          "sale": "-5%"
+        }
+      ]
+    },
+    {
+      "ctg": "Watch",
+      "data": [
+        {
+          "id": 0,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0022166_apple-watch-series-9-nhom-gps-41mm-sport-band_240.png",
+          "name": "Apple Watch Series 9 Nhôm (GPS) 41mm | Sport Band",
+          "currentPrice": 9390000,
+          "originalPrice": 11990000,
+          "sale": "-21%"
+        },
+        {
+          "id": 1,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0022173_apple-watch-ultra-2-gps-cellular-49mm-ocean-band_240.png",
+          "name": "Apple Watch Ultra 2 GPS + Cellular 49mm Ocean Band",
+          "currentPrice": 20890000,
+          "originalPrice": 23990000,
+          "sale": "-12%"
+        },
+        {
+          "id": 2,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0022275_apple-watch-se-2023-gps-sport-band-size-sm_240.jpeg",
+          "name": "Apple Watch SE 2023 GPS Sport Band size S/M",
+          "currentPrice": 5890000,
+          "originalPrice": 8990000,
+          "sale": "-34%"
+        },
+        {
+          "id": 3,
+          "icon": {
+            "name": "new",
+            "image": "https://shopdunk.com/images/uploaded/icon/new.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+          "name": "Apple Watch Series 10 Nhôm (GPS) 42mm | Sport Band",
+          "currentPrice": 10990000,
+          "originalPrice": 10999000,
+          "sale": "0%"
+        }
+      ]
+    },
+    {
+      "ctg": "Accessories",
+      "data": [
+        {
+          "id": 0,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0000211_airpods-pro-2_240.png",
+          "name": "AirPods Pro 2",
+          "currentPrice": 4990000,
+          "originalPrice": 6790000,
+          "sale": "-26%"
+        },
+        {
+          "id": 1,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0001395_sac-20w-usb-c-power-adapter_240.png",
+          "name": "Sạc 20W USB-C Power Adapter ",
+          "currentPrice": 520000,
+          "originalPrice": 690000,
+          "sale": "-24%"
+        },
+        {
+          "id": 2,
+          "icon": null,
+          "image": "https://shopdunk.com/images/thumbs/0001421_magic-mouse-2_240.jpeg",
+          "name": "Magic Mouse 2",
+          "currentPrice": 1790000,
+          "originalPrice": 2990000,
+          "sale": "-40%"
+        },
+        {
+          "id": 3,
+          "icon": {
+            "name": "new",
+            "image": "https://shopdunk.com/images/uploaded/icon/new.png"
+          },
+          "image": "https://shopdunk.com/images/thumbs/0026434_apple-pencil-pro_240.jpeg",
+          "name": "Apple Pencil Pro",
+          "currentPrice": 3390000,
+          "originalPrice": 3499000,
+          "sale": "0%"
+        }
+      ]
+    }
+  ]
+}
